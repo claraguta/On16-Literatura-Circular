@@ -1,0 +1,44 @@
+{
+  "name": "literatura-circular",
+  "version": "1.0.0",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "start": "nodemon server.js",
+    "swagger-autogen": "node swagger.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.18.1",
+    "jest": "28.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.6",
+    "save": "^2.5.0",
+    "swagger-autogen": "^2.21.5",
+    "swagger-ui-express": "^4.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.20.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "nodemon": "^2.0.19"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claraguta/On16-Literatura-Circular.git"
+  },
+  "bugs": {
+    "url": "https://github.com/claraguta/On16-Literatura-Circular/issues"
+  },
+  "homepage": "https://github.com/claraguta/On16-Literatura-Circular#readme",
+  "description": ""
+}
