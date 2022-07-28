@@ -22,8 +22,8 @@ const bibliotecaSchema = mongoose.Schema({
   },
 
   publica: {
-    type: "boolean",
-    required: true
+    type: Boolean, required: true
+
   },
 
   email: {
@@ -39,8 +39,7 @@ const bibliotecaSchema = mongoose.Schema({
   },
 
   dispostoAPagar: {
-      type: "boolean",
-      required: true
+    type: Boolean, required: true    
   
 }}, { timestamps: true,
       versionkey: false }) 

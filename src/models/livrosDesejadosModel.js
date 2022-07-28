@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
-const LivrosSchema = mongoose.Schema({
-    id:{
+const livroDesejadoSchema = mongoose.Schema({
+    _id:{
         type:mongoose.Schema.Types.ObjectId,
         default: mongoose.Types.ObjectId
     },
@@ -21,14 +21,18 @@ const LivrosSchema = mongoose.Schema({
         required: true
     },
 
-    comentarios: {
+    genero: {
         type: [String],
-        required: false,
-        default: "não há"
+        required: true
+    },
+
+    emailDoInteressado: {
+        type: String,
+        required: true,        
     }
 
 }, { timestamps: true})
 
-const LivrosModel = mongoose.model('livros', LivrosSchema)
-module.exports - LivrosModel
+const LivrosDesejadosModel = mongoose.model('livroDesejado', livroDesejadoSchema)
+module.exports = LivrosDesejadosModel
 

@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const doadoresSchema = mongoose.Schema({
+const doadorSchema = mongoose.Schema({
   _id: {
     type: mongoose.Schema.Types.ObjectId,
     default: mongoose.Types.ObjectId
@@ -34,13 +34,12 @@ const doadoresSchema = mongoose.Schema({
   },
 
   dispostoAPagar: {
-      type: "boolean",
-      required: true
-  
+    type: Boolean, required: true    
+    
 }}, { timestamps: true,
       versionkey: false }) 
 
-const doadoresModel = mongoose.model('doadores', doadoresSchema)
+const doadoresModel = mongoose.model('doador', doadorSchema)
 
 module.exports = doadoresModel
 
