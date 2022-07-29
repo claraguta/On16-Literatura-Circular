@@ -38,7 +38,7 @@ Existem 4 grandes grupos de dados nesta API, são eles: DOADORES, BIBLIOTECAS, L
 - [x] Com relação aos seus dados, os doadores devem ser capazes de: (i) criar sua conta; (ii) deletar sua conta, (iii) fazer login, (iv) atualizar os dados da conta.
 - [x] Os dados dos doadores também podem ser (i) filtrados por doadores que aceitam pagar o frete e (ii) levantados a fim de mostrar todos os doadores cadastrado. 
   
-  > Livros disponíveis
+> Livros disponíveis
 - [x] Quando cadastram livros para doação, eles vão para o grupo de dados LIVROS DISPONÍVEIS.
 - [x] O schema do cadastro de livros disponíveis na API deve conter: id (autogerado), titulo, autore, editora, genero, comentarios, emailDoDoador.
 - [x] Com relação aos livros, os doadores devem ser capazes de: (i) cadastrar um livro para doação, (ii) atualizar os dados do livro cadastrado, (iii) deletar o livro cadastrado.
