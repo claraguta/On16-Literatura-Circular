@@ -1,6 +1,10 @@
 # LITERATURA CIRCULAR
 
-![Logo do projeto](https://www.canva.com/design/DAFHvxBiZZg/-G50IH-dNKFEYKLDCb_CoQ/watch?utm_content=DAFHvxBiZZg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+<p align="center">
+<img src="material/banner.mp4" alt="logo do projeto Literatura Circular" width="500">
+</p> <p align="center"> </p>
+</h1></br>
+
 ## Projeto Final - {Reprograma} - ON 16
 
 Projeto de conclusão do bootcamp de desenvolvimento Back-end da [{reprograma}](https://reprograma.com.br/) - Todas em Tech.
@@ -144,9 +148,9 @@ Caso esteja utilizando outro gerenciador de pacotes apenas altere o npm para seu
 | Deletar livro   para doação                     | DELETE | /book/:id              |
 | Atualizar   dados dos livros disponíveis        | PATCH  | /book/available/:id    |
 | Filtrar livros   disponíveis por doador         | GET    | /books/donor           |
-|                                                 |        |                        |
 
-| Bibliotecas                                     |        |                    |
+
+| Bibliotecas                                     
 |-------------------------------------------------|--------|--------------------|
 | Criar   conta da biblioteca                     | POST   | /library           |
 | Deletar a   conta da biblioteca                 | DELETE | /library/:id       |
@@ -158,9 +162,8 @@ Caso esteja utilizando outro gerenciador de pacotes apenas altere o npm para seu
 | Filtrar   bibliotecas que aceitam pagar o frete | GET    | /libraries/payment |
 | Filtrar   bibliotecas pelo ID                   | GET    | /libraries/:id     |
 | Filtrar bibliotecas públicas                    | GET    | /libraries/public  |
-|                                                 |        |                    |
 
-| Livros Desejados                     |        |                         |
+| Livros Desejados                     |
 |--------------------------------------|--------|-------------------------|
 | Cadastrar livro desejado             | POST   | /book/wished            |
 | Deletar livro desejado               | DELETE | /books/wished/:id'      |
@@ -169,7 +172,6 @@ Caso esteja utilizando outro gerenciador de pacotes apenas altere o npm para seu
 | Filtrar livros desejados por título  | GET    | /books/wished/title     |
 | Filtrar livros desejados por genero  | GET    | /books/wished/genre     |
 | Ver quais livros uma biblioteca quer | GET    | /books/wished/library   |
-|                                      |        |                         |
 
 ### :purple_heart: Contribua com o projeto!
 
@@ -179,8 +181,12 @@ Caso esteja utilizando outro gerenciador de pacotes apenas altere o npm para seu
 
 ### A Desenvolvedora
 
-Essa é minha primeira API desenvolvida totalmente do zero, como trabalho de conclusão do Bootcamp Todas em Tech, da Reprograma. 
-![Eu mesma!](https://www.canva.com/design/DAFHwALiYo8/m1Qc8RgUb90JWAxfDH1XBg/view?utm_content=DAFHwALiYo8&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
+Essa é minha primeira API desenvolvida totalmente do zero, como trabalho de conclusão do Bootcamp Todas em Tech, da Reprograma. Estou ansiosa para meus próximos desafios :)
+
+<p align="center">
+<img src="material/desenvolvedora.png" alt="banner com meu nome e minha foto" width="500">
+</p> <p align="center"> </p>
+</h1></br>
 
 ### :purple_heart: Fontes
 
