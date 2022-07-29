@@ -1,7 +1,7 @@
 # LITERATURA CIRCULAR
 
 <p align="center">
-<img src="material/banner.mp4" alt="logo do projeto Literatura Circular" width="500">
+<img src="material/banner.gif" alt="logo do projeto Literatura Circular" width="500">
 </p> <p align="center"> </p>
 </h1></br>
 
@@ -47,7 +47,7 @@ Existem 4 grandes grupos de dados nesta API, são eles: DOADORES, BIBLIOTECAS, L
 > Bibliotecas
 - [x] O schema de cadastro das bibliotecas na API deve conter: id (autogerado), nome, cidade, estado, email, senha e se ele está disposto a pagar pelo recebimento do livro e se é uma instituição pública ou privada.
 - [x] Com relação aos seus dados, as bibliotecas devem ser capazes de: (i) criar sua conta, (ii) deletar sua conta, (iii) fazer login com sua conta, (iv) atualizar seus dados.
-- [x] Os dados das bibliotecas também pode ser (i) filtrados por estado, (ii) filtrados por cidade, (iii) filtrados por bilbiotecas que aceitam pagar o frete, (iv) filtrados por ID, (v) levantados a fim de mostrar ser a instituição é pública ou privada, (vi) levantados a fim de mostrar todas as bibliotecas cadastradas.
+- [x] Os dados das bibliotecas também pode ser (i) filtrados por estado, (ii) filtrados por cidade, (iii) filtrados por bilbiotecas que aceitam pagar o frete, (iv) filtrados por ID, (v) levantados a fim de mostrar ser a instituição é pública ou privada, (gitvi) levantados a fim de mostrar todas as bibliotecas cadastradas.
 
 > Livros desejados
 - [x] Quando cadastram livros que desejam, eles vão para o grupo de dados LIVROS DESEJADOS.
