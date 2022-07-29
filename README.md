@@ -13,9 +13,10 @@ Projeto de conclusão do bootcamp de desenvolvimento Back-end da [{reprograma}](
 
 ### :purple_heart: Informações básicas
 
-Documentação disponível [neste link](https://literatura-circular.herokuapp.com/documentacao-literatura-circular/)
-Aplicação disponível [neste link](https://literatura-circular.herokuapp.com/)
-Veja os vídeos com execução das principais rotas [clicando aqui](https://drive.google.com/drive/folders/1gqnjEKAVJEysjDrzKHWgS3CDi-N-SR7p?usp=sharing)
+- Documentação disponível [neste link](https://literatura-circular.herokuapp.com/documentacao-literatura-circular/)
+- Aplicação disponível [neste link](https://literatura-circular.herokuapp.com/)
+- Veja os vídeos com execução das principais rotas [clicando aqui](https://drive.google.com/drive/folders/1gqnjEKAVJEysjDrzKHWgS3CDi-N-SR7p?usp=sharing)
+- Slides da apresentação disponíveis [neste link](https://www.canva.com/design/DAFHvFYSSlo/JLHhIkyX6efBq1jBbs9Zuw/view?utm_content=DAFHvFYSSlo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ### :purple_heart: Objetivos
 
@@ -137,7 +138,7 @@ Caso esteja utilizando outro gerenciador de pacotes apenas altere o npm para seu
 | Fazer login do   doador                      | POST   | /donor/login      |
 | Atualizar dados da conta do   doador         | PATCH  | /donor/update/:id |
 | Mostrar todos   os doadores cadastrados      | GET    | /donors           |
-|                                                 |        |                        |
+|                                                 
 
 | Livros Disponíveis                              |        |                        |
 |-------------------------------------------------|--------|------------------------|
@@ -149,8 +150,7 @@ Caso esteja utilizando outro gerenciador de pacotes apenas altere o npm para seu
 | Atualizar   dados dos livros disponíveis        | PATCH  | /book/available/:id    |
 | Filtrar livros   disponíveis por doador         | GET    | /books/donor           |
 
-
-| Bibliotecas                                     
+| Bibliotecas                                     |        |                    |
 |-------------------------------------------------|--------|--------------------|
 | Criar   conta da biblioteca                     | POST   | /library           |
 | Deletar a   conta da biblioteca                 | DELETE | /library/:id       |
@@ -163,7 +163,7 @@ Caso esteja utilizando outro gerenciador de pacotes apenas altere o npm para seu
 | Filtrar   bibliotecas pelo ID                   | GET    | /libraries/:id     |
 | Filtrar bibliotecas públicas                    | GET    | /libraries/public  |
 
-| Livros Desejados                     |
+| Livros Desejados                     |        |                         |
 |--------------------------------------|--------|-------------------------|
 | Cadastrar livro desejado             | POST   | /book/wished            |
 | Deletar livro desejado               | DELETE | /books/wished/:id'      |
