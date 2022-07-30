@@ -53,7 +53,7 @@ Existem 4 grandes grupos de dados nesta API, são eles: DOADORES, BIBLIOTECAS, L
 > Livros desejados
 - [x] Quando cadastram livros que desejam, eles vão para o grupo de dados LIVROS DESEJADOS.
 - [x] O schema de cadastro dos livros desejados na API deve conter: id (autogerado), titulo, autore, editora, genero, email.
-- [x] Com relação aos livros, os doadores devem ser capazes de: (i) cadastrar um livro, (ii) deletar m livro, (iii) atualizar o livro cadastrado.
+- [x] Com relação aos livros, as bibliotecas devem ser capazes de: (i) cadastrar um livro, (ii) deletar um livro, (iii) atualizar o livro cadastrado.
 - [x] Os dados de livros desejados devem poder ser: (i) filtrados por titulo, (ii) filtrados por genero, (iii) filtrados por biblioteca, (iv) levantados a fim de mostrar todos os livros desejados cadastrados.
 
 ### :purple_heart: Instalação
@@ -175,6 +175,19 @@ Caso esteja utilizando outro gerenciador de pacotes apenas altere o npm para seu
 | Filtrar livros desejados por genero  | GET    | /books/wished/genre     |
 | Ver quais livros uma biblioteca quer | GET    | /books/wished/library   |
 
+### :purple_heart: Futuras implementações
+
+- Atualizar funções
+Atualizar funções para incluir mensagens de "não encontrado" nas buscas que não tiverem retorno de dados no banco (ex. Get Livros Disponíveis por Título).
+
+- Fazer novos filtros
+Fazer um filtro de livros por autor
+
+- Automatizar a conexão livro/autor
+Automatizar a conexão entre o usuário e o livro que ele cadastrar (hoje, ao cadastrar, precisa fornecer o e-mail)
+
+- Tornar o match entre doadores e bibliotecas mais eficiente
+Automatizar o match entre bibliotecas e doares, abrindo opção de troca de mensagens
 ### :purple_heart: Contribua com o projeto!
 
 1. Faça o fork do projeto;
