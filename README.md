@@ -20,15 +20,15 @@ Projeto de conclusão do bootcamp de desenvolvimento Back-end da [{reprograma}](
 
 ### :purple_heart: Objetivos
 
-Hoje, cerca de 95% dos municípios brasileiros têm bibliotecas públicas. São mais de 6 mil em todo Brasil. Todavia, grande parte destas bibliotecas **não possuem orçamento e tem um acervo muito pobre e desatualizado, com dificuldades de obter recursos para modificar a situação**.
+Hoje, cerca de 95% dos municípios brasileiros têm bibliotecas públicas. São mais de 6 mil em todo o Brasil. Todavia, grande parte destas bibliotecas **não possuem orçamento e tem um acervo muito pobre e desatualizado, com dificuldades de obter recursos para modificar a situação**.
 
-Do outro lado da moeda, o mercado literário tem estado aquecido (apesar de suas dificuldades e problemas). A última Bienal do Livro de São Paulo (2022) **foi um recorde de vendas, com editoras declarando um faturamento 185% acima do resultado da última Bienal, em 2018**.
+Do outro lado da moeda, o mercado literário tem estado aquecido (apesar de suas dificuldades e problemas). A última Bienal do Livro de São Paulo (2022) **teve um recorde de vendas, com editoras declarando um faturamento 185% acima do resultado da última Bienal, em 2018**.
 
 Nesse universo de leitores, muitos têm o costume de separar livros que não querem mais. Todavia, aí surge um desafio: qual destinação que pode ser dada àqueles exemplares? Alguns procuram vender online, outros dão para colegas e parentes e ainda outros procuram uma biblioteca que aceite doações.
 
 Todavia, como já vimos, entrar em contato com as bibliotecas pode ser um desafio, assim como verificar quais livros elas estariam interessadas em ter no acervo. **Essa API, então, busca resolver esse problema, conectando DOADORES com livros que desejam doar e BIBLIOTECAS que desejam receber esses livros de doação.**
 
-Esse projeto me move muito pois sou escritora desde que me lembro por gente. Livros sempre foram meus melhores amigos e, por isso, sou apaixonada pelo universo literário. Acredito que eles podem mudar muitas vidas, como mudaram a minha, e quero ajudar a garantir que eles cheguem nas mãos de todos, gratuitamente, através de bibliotecas. 
+Esse projeto me move muito pois sou escritora desde que me lembro por gente. Livros sempre foram meus melhores amigos e, por isso, sou apaixonada pelo universo literário. Acredito que eles podem mudar muitas vidas, como mudaram a minha, e quero ajudar a garantir que eles cheguem nas mãos de todos, através de bibliotecas. 
 
 ### :purple_heart: Funcionalidades
 
@@ -37,7 +37,7 @@ Existem 4 grandes grupos de dados nesta API, são eles: DOADORES, BIBLIOTECAS, L
 > Doadores
 - [x] O schema do cadastro de doadores na API deve conter: id (autogerado), nome, cidade, estado, email, senha e se ele está disposto a pagar pelo envio do livro (dispostoAPagar).
 - [x] Com relação aos seus dados, os doadores devem ser capazes de: (i) criar sua conta; (ii) deletar sua conta, (iii) fazer login, (iv) atualizar os dados da conta.
-- [x] Os dados dos doadores também podem ser (i) filtrados por doadores que aceitam pagar o frete e (ii) levantados a fim de mostrar todos os doadores cadastrado. 
+- [x] Os dados dos doadores também podem ser (i) filtrados por doadores que aceitam pagar o frete e (ii) levantados a fim de mostrar todos os doadores cadastrados. 
   
 > Livros disponíveis
 - [x] Quando cadastram livros para doação, eles vão para o grupo de dados LIVROS DISPONÍVEIS.
@@ -48,7 +48,7 @@ Existem 4 grandes grupos de dados nesta API, são eles: DOADORES, BIBLIOTECAS, L
 > Bibliotecas
 - [x] O schema de cadastro das bibliotecas na API deve conter: id (autogerado), nome, cidade, estado, email, senha e se ele está disposto a pagar pelo recebimento do livro e se é uma instituição pública ou privada.
 - [x] Com relação aos seus dados, as bibliotecas devem ser capazes de: (i) criar sua conta, (ii) deletar sua conta, (iii) fazer login com sua conta, (iv) atualizar seus dados.
-- [x] Os dados das bibliotecas também pode ser (i) filtrados por estado, (ii) filtrados por cidade, (iii) filtrados por bilbiotecas que aceitam pagar o frete, (iv) filtrados por ID, (v) levantados a fim de mostrar ser a instituição é pública ou privada, (gitvi) levantados a fim de mostrar todas as bibliotecas cadastradas.
+- [x] Os dados das bibliotecas também pode ser (i) filtrados por estado, (ii) filtrados por cidade, (iii) filtrados por bilbiotecas que aceitam pagar o frete, (iv) filtrados por ID, (v) levantados a fim de mostrar ser a instituição é pública ou privada, (vi) levantados a fim de mostrar todas as bibliotecas cadastradas.
 
 > Livros desejados
 - [x] Quando cadastram livros que desejam, eles vão para o grupo de dados LIVROS DESEJADOS.
@@ -93,7 +93,10 @@ Caso esteja utilizando outro gerenciador de pacotes apenas altere o npm para seu
 
 
 ```
-📁reprograma-capacitacaorefugiados
+📁ON16-LITERATURA-CIRCULAR
+├── 📁material
+        ├── 📄banner.gif
+|       ├── 📄desenvolvedora.png
 ├── 📁node_modules
 ├── 📁src
 │   ├── 📁controller
@@ -106,7 +109,7 @@ Caso esteja utilizando outro gerenciador de pacotes apenas altere o npm para seu
 │   ├── 📁models
 |       ├── 📄bibliotecasModel.json
 |       ├── 📄doadoresModel.json
-|       ├── 📄livrosDesejadossModel.json
+|       ├── 📄livrosDesejadosModel.json
 |       ├── 📄livrosDisponiveisModel.json
 │   ├── 📁routes
 │       ├── 📄bibliotecasRoutes.js
@@ -138,8 +141,7 @@ Caso esteja utilizando outro gerenciador de pacotes apenas altere o npm para seu
 | Fazer login do   doador                      | POST   | /donor/login      |
 | Atualizar dados da conta do   doador         | PATCH  | /donor/update/:id |
 | Mostrar todos   os doadores cadastrados      | GET    | /donors           |
-|                                                 
-
+                                                 
 | Livros Disponíveis                              |        |                        |
 |-------------------------------------------------|--------|------------------------|
 | Mostrar   todos os livros disponíveis para doar | GET    | /books/available       |
